@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<pthread.h>
 #include<semaphore.h>
-#define n 5
-#define think 0
-#define hungry 1
-#define eat 2
+#define n 1
+#define think 2
+#define hungry 5
+#define eat 6
 #define left (i-1+n)%n
 #define right (i+1)%n
 int state[n];
